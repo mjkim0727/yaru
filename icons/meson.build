@@ -1,6 +1,6 @@
 fs = import('fs')
 
-foreach flavour: ['default', 'mate']
+foreach flavour: ['default', 'aqua', 'blue', 'green', 'mate', 'pink', 'purple', 'red', 'yellow']
   if get_option(flavour)
     suffix = flavour == 'default' ? '' : '-@0@'.format(flavour)
     icon_dir = 'Yaru' + suffix
