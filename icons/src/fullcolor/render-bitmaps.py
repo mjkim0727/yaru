@@ -37,7 +37,7 @@ SOURCES = (
     "status",
     "wip",
 )
-VARIANTS = ['default', 'mate']
+VARIANTS = ['default', 'mate', 'aqua', 'blue', 'green', 'pink', 'purple', 'red', 'yellow']
 
 # DPI multipliers to render at
 DPIS = [1, 2]
